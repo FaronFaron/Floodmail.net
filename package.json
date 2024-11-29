@@ -1,0 +1,17 @@
+{
+  "name": "floodmail-web",
+  "version": "1.0.0",
+  "description": "FloodMail.net Web Version",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.3.4",
+    "socket.io": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
