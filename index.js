@@ -26,7 +26,7 @@ io.on("connection", (socket) => {
     }
 
     try {
-      const response = await axios.get("https://floodmail.net/free", {
+      const response = await axios.get("https://sorix.io/free", {
         params: { email },
         headers: { "User-Agent": "floodmailprivateservices" },
       });
